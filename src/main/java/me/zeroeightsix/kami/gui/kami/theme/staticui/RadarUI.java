@@ -76,7 +76,7 @@ public class RadarUI extends AbstractComponentUI<Radar> {
 
         GL11.glLineWidth(1.8f);
 //        glColor4f(1,1,1,1f);
-        glColor3f(.60f, .56f, 1.00f);
+        glColor3f(.60f, 1.00f, .56f);
         RenderHelper.drawCircleOutline(0, 0, radius);
 
         component.getTheme().getFontRenderer().drawString(-component.getTheme().getFontRenderer().getStringWidth("+z") / 2, radius - component.getTheme().getFontRenderer().getFontHeight(), "\u00A77z+");

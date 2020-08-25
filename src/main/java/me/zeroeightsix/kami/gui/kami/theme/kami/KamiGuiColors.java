@@ -18,7 +18,7 @@ public class KamiGuiColors {
         buttonIdleN(new Color(200, 200, 200)), // lighter grey
         buttonHoveredN(new Color(190, 190, 190)), // light grey
 
-        buttonIdleT(new Color(165, 158, 232)), // lighter colored
+        buttonIdleT(new Color(184, 227, 180)), // lighter colored
         buttonHoveredT((new Color(buttonIdleT.color.getRGB())).brighter()),
 
         windowOutline(new Color(68, 252, 22)),

@@ -512,13 +512,13 @@ public class KamiGUI extends GUI {
 
     private static String getEntityName(@Nonnull Entity entity) {
         if (entity instanceof EntityItem) {
-            return TextFormatting.DARK_AQUA + ((EntityItem) entity).getItem().getItem().getItemStackDisplayName(((EntityItem) entity).getItem());
+            return TextFormatting.DARK_GREEN + ((EntityItem) entity).getItem().getItem().getItemStackDisplayName(((EntityItem) entity).getItem());
         }
         if (entity instanceof EntityWitherSkull) {
             return TextFormatting.DARK_GRAY + "Wither skull";
         }
         if (entity instanceof EntityEnderCrystal) {
-            return TextFormatting.LIGHT_PURPLE + "End crystal";
+            return TextFormatting.GREEN + "End crystal";
         }
         if (entity instanceof EntityEnderPearl) {
             return "Thrown ender pearl";
