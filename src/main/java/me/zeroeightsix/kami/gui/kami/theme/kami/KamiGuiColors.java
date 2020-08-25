@@ -9,10 +9,10 @@ import java.awt.*;
  */
 public class KamiGuiColors {
     public enum GuiC {
-        bgColour(new Color(67, 54, 191)), // normal colored
-        bgColourHover(new Color(67, 54, 191)), // light colored
+        bgColour(new Color(42, 191, 40)), // normal colored
+        bgColourHover(new Color(52, 201, 50)), // light colored
 
-        buttonPressed(new Color(116, 101, 247)),
+        buttonPressed(new Color(68, 252, 22)),
 
         // N = normal T = toggled
         buttonIdleN(new Color(200, 200, 200)), // lighter grey
@@ -21,20 +21,20 @@ public class KamiGuiColors {
         buttonIdleT(new Color(165, 158, 232)), // lighter colored
         buttonHoveredT((new Color(buttonIdleT.color.getRGB())).brighter()),
 
-        windowOutline(new Color(116, 101, 247)),
+        windowOutline(new Color(68, 252, 22)),
         windowOutlineWidth(1.8f),
 
-        pinnedWindow(new Color(116, 101, 247)),
+        pinnedWindow(new Color(68, 252, 22)),
         unpinnedWindow(168.3),
         lineWindow(112.2),
 
-        sliderColour(new Color(155, 144, 255)),
+        sliderColour(new Color(16, 165, 0)),
 
-        enumColour(new Color(116, 101, 247)),
+        enumColour(new Color(68, 252, 22)),
 
-        chatOutline(new Color(52, 43, 128)),
+        chatOutline(new Color(145, 229, 123)),
 
-        scrollBar(new Color(116, 101, 247));
+        scrollBar(new Color(68, 252, 22));
 
         public Color color;
         public float aFloat;

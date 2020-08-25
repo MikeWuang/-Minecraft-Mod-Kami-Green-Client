@@ -83,9 +83,9 @@ public class KamiMod {
     public static final char colour = '\u00A7';
     public static final char separator = '\u23d0';
 
-    private static final String KAMI_CONFIG_NAME_DEFAULT = "KAMIBlueConfig.json";
+    private static final String KAMI_CONFIG_NAME_DEFAULT = "KAMIGreenConfig.json";
 
-    public static final Logger log = LogManager.getLogger("KAMI Blue");
+    public static final Logger log = LogManager.getLogger("KAMI Green");
 
     public static final EventBus EVENT_BUS = new EventManager();
     public static final ModuleManager MODULE_MANAGER = new ModuleManager();

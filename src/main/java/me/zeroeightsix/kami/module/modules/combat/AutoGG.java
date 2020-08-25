@@ -1,4 +1,4 @@
-package me.zeroeightsix.kami.module.modules.chat;
+package me.zeroeightsix.kami.module.modules.combat;
 
 import me.zero.alpine.listener.EventHandler;
 import me.zero.alpine.listener.Listener;
@@ -14,9 +14,9 @@ import java.util.ArrayList;
 import java.util.function.Predicate;
 
 @Module.Info(
-        name="AutoEz",
+        name="AutoGG",
         category=Module.Category.COMBAT,
-        description="NutGod AutoGG"
+        description="Say GG when killing someone duh."
 )
 public class AutoGG extends Module {
 
