@@ -11,6 +11,8 @@ Please go to [https://kamigreen.org](https://kamigreen.org) for documentation an
 
 [zeroeightysix](https://github.com/zeroeightysix) for the original [KAMI](https://github.com/zeroeightysix/KAMI)
 
+[Dominika](https://github.com/dominikaaaa) for [KAMI Blue](https://github.com/kami-blue/client)
+
 [ZeroMemes](https://github.com/ZeroMemes) for [Alpine](https://github.com/ZeroMemes/Alpine)
 
 [Raion Client](https://raionclient.com/) for `;teleport` and `;vanish` commands
